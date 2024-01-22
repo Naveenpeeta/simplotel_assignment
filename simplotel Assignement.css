@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 60px;
+    width: 100%;
+    margin: auto;
+
+}
+
+.arrow-image {
+    height: 10px;
+    width: 16px;
+    margin-right: 2px;
+}
+
+.menu-section {
+    list-style-type: none;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 91, 91);
+    height: 6vh;
+}
+
+li {
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 22px;
+}
+
+.burger-image {
+    width: 70vh;
+    height: 60vh;
+    margin-right: 0px;
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, #ffff99, #ff66cc);
+    justify-content: center;
+
+
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 30px;
+    letter-spacing: 12px;
+    font-family: sans-serif;
+}
+
+.hotel_description {
+    margin: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.button_click_me {
+    margin: 30px;
+    height: 45px;
+    width: 290px;
+    font-size: 19px;
+    background-color: rgb(241, 91, 91);
+    border: none;
+    color: white;
+}
+
+.address_showing_images {
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel_images {
+    display: flex;
+
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 0px;
+    background-image: linear-gradient(#ffff99, #ff80df);
+    background-image: linear-gradient(to left, #ff80df, #ffff99);
+}
+
+.image_stag {
+    height: 220px;
+    width: 170px;
+    margin: 10px;
+}
+
+.image_market {
+    height: 220px;
+    width: 170px;
+    margin: 10px;
+}
+
+.dining_table {
+    height: 460px;
+    margin: 10px;
+}
+
+.article-side-container {
+    background-color: rgb(241, 91, 91);
+    height: 150px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.container-name {
+    font-size: 12px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.container-detail {
+    padding-top: 20px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.click-me-name {
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.image_2 {
+    display: none;
+}
+
+.image_1 {
+    height: 30px;
+    width: 30px;
+}
+
+/* Media for small screens(mobiles) */
+@media (max-width:760px) {
+    .menu-section {
+        display: none;
+        width: 100vh;
+        overflow: hidden;
+    }
+
+    .image_2 {
+        height: 30px;
+        width: 30px;
+    }
+
+    .image_2 {
+        display: block;
+        margin-left: 5px;
+
+
+    }
+
+    .mobile-menu {
+        background-color: rgb(241, 91, 91);
+    }
+
+    .top-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: linear-gradient(to right, #ffff99, #ff66cc);
+    }
+
+    .burger-image {
+        width: 60vh;
+        height: 70vh;
+
+    }
+
+    .hotel-deatil-container {
+        margin-left: 16px;
+    }
+
+    .top-container {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .bottom-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 20px;
+        background-image: linear-gradient(#ffff99, #ff80df);
+        background-image: linear-gradient(to left, #ff80df, #ffff99);
+    }
+
+    .image_stag {
+        height: 150px;
+        width: 200px;
+        margin: 10px;
+    }
+
+    .image_market {
+        height: 150px;
+        width: 200px;
+        margin: 10px;
+    }
+
+    .dining_table {
+        height: 320px;
+        margin: 10px;
+    }
+}
+
+/* Media for tablets */
+
+@media (min-width:761px) and (max-width:1000px) {
+    .burger-image {
+        width: 40vh;
+        height: 50vh;
+    }
+
+    .image_stag {
+        height: 220px;
+        width: 170px;
+        margin: 10px;
+    }
+
+    .image_market {
+        height: 220px;
+        width: 170px;
+        margin: 10px;
+    }
+
+    .dining_table {
+        height: 460px;
+        margin: 10px;
+
+    }
+
+    .bottom-container {
+        height: 60vh;
+        width: 100%;
+        background-color: black;
+        margin-top: 20px;
+        background-image: linear-gradient(#ffff99, #ff80df);
+        background-image: linear-gradient(to left, #ff80df, #ffff99);
+    }
+
+
+
+
+
+
+
+
+}
